@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:prismarine_shard"
+  },
+  "base": {
+    "item": "minecraft:stone_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_axe",
+    "components": {
+        "extra_handles:handle_type": "Prismarine"
+    }
+  },
+  "template": {
+    "item": "extra_handles:prismarine_upgrade_template"
+  }
+}

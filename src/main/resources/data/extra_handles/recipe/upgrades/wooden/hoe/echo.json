@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:echo_shard"
+  },
+  "base": {
+    "item": "minecraft:wooden_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_hoe",
+    "components": {
+        "extra_handles:handle_type": "Echo"
+    }
+  },
+  "template": {
+    "item": "extra_handles:echo_upgrade_template"
+  }
+}

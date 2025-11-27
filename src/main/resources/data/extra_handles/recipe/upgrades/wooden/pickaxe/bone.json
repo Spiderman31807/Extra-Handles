@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:bone"
+  },
+  "base": {
+    "item": "minecraft:wooden_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+        "extra_handles:handle_type": "Bone"
+    }
+  },
+  "template": {
+    "item": "extra_handles:bone_upgrade_template"
+  }
+}

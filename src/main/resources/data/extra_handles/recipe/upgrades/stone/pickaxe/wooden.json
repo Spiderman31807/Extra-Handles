@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:rods/wooden"
+  },
+  "base": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_pickaxe",
+    "components": {
+        "extra_handles:handle_type": "Wooden"
+    }
+  },
+  "template": {
+    "item": "extra_handles:wooden_upgrade_template"
+  }
+}

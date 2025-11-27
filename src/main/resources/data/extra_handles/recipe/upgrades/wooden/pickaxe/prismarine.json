@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:prismarine_shard"
+  },
+  "base": {
+    "item": "minecraft:wooden_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+        "extra_handles:handle_type": "Prismarine"
+    }
+  },
+  "template": {
+    "item": "extra_handles:prismarine_upgrade_template"
+  }
+}

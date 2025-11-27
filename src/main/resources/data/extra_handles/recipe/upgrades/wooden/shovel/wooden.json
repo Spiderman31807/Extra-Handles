@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:rods/wooden"
+  },
+  "base": {
+    "item": "minecraft:wooden_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_shovel",
+    "components": {
+        "extra_handles:handle_type": "Wooden"
+    }
+  },
+  "template": {
+    "item": "extra_handles:wooden_upgrade_template"
+  }
+}
