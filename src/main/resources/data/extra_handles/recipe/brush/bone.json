@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brush",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:feather"
+    },
+    "b": {
+      "tag": "c:ingots/copper"
+    },
+    "c": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:brush",
+    "components": {
+      "extra_handles:handle_type": "Bone"
+    },
+    "count": 1
+  }
+}

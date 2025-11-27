@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fishing_rod",
+  "category": "equipment",
+  "pattern": [
+    "  a",
+    " ab",
+    "a b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "components": {
+      "extra_handles:handle_type": "Echo"
+    },
+    "count": 1
+  }
+}
