@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:echo_shard"
+  },
+  "base": {
+    "item": "minecraft:brush"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:brush",
+    "components": {
+        "extra_handles:handle_type": "Echo"
+    }
+  },
+  "template": {
+    "item": "extra_handles:echo_upgrade_template"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:bone"
+  },
+  "base": {
+    "item": "minecraft:fishing_rod"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:fishing_rod",
+    "components": {
+        "extra_handles:handle_type": "Bone"
+    }
+  },
+  "template": {
+    "item": "extra_handles:bone_upgrade_template"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:armadillo_scute"
+  },
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:bow",
+    "components": {
+        "extra_handles:handle_type": "Armadillo"
+    }
+  },
+  "template": {
+    "item": "extra_handles:armadillo_upgrade_template"
+  }
+}

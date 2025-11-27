@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#-#",
+    "#~#",
+    "###"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "-": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "extra_handles:amethyst_upgrade_template",
+    "count": 1
+  }
+}
