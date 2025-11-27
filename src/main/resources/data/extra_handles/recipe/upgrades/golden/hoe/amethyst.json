@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "base": {
+    "item": "minecraft:golden_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_hoe",
+    "components": {
+        "extra_handles:handle_type": "Amethyst"
+    }
+  },
+  "template": {
+    "item": "extra_handles:amethyst_upgrade_template"
+  }
+}

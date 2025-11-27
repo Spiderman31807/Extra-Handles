@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:breeze_rod"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_shovel",
+    "components": {
+        "extra_handles:handle_type": "Breeze"
+    }
+  },
+  "template": {
+    "item": "extra_handles:breeze_upgrade_template"
+  }
+}
