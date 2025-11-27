@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "golden_sword",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/gold"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_sword",
+    "components": {
+      "extra_handles:handle_type": "Netherite"
+    },
+    "count": 1
+  }
+}

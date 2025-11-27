@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "golden_shovel",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/gold"
+    },
+    "b": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_shovel",
+    "components": {
+      "extra_handles:handle_type": "Scute"
+    },
+    "count": 1
+  }
+}

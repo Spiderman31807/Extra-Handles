@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "diamond_pickaxe",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/diamond"
+    },
+    "b": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "extra_handles:handle_type": "Scute"
+    },
+    "count": 1
+  }
+}

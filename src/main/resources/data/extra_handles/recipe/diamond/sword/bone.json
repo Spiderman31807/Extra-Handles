@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "diamond_sword",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/diamond"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "extra_handles:handle_type": "Bone"
+    },
+    "count": 1
+  }
+}

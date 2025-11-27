@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "golden_pickaxe",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/gold"
+    },
+    "b": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+    "components": {
+      "extra_handles:handle_type": "Breeze"
+    },
+    "count": 1
+  }
+}

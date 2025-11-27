@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "diamond_hoe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/diamond"
+    },
+    "b": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_hoe",
+    "components": {
+      "extra_handles:handle_type": "Amethyst"
+    },
+    "count": 1
+  }
+}
