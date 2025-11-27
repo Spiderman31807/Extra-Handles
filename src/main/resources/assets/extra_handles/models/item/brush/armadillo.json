@@ -1,0 +1,6 @@
+{
+    "parent": "item/brush",
+    "textures": {
+        "layer0": "extra_handles:item/armadillo_handle_stub"
+    }
+}

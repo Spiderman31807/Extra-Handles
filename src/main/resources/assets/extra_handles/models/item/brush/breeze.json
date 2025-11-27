@@ -1,0 +1,6 @@
+{
+    "parent": "item/brush",
+    "textures": {
+        "layer0": "extra_handles:item/breeze_handle_stub"
+    }
+}

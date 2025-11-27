@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow_pulling_1",
+    "textures": {
+        "layer0": "extra_handles:item/echo_curved_pulling_1"
+    }
+}
