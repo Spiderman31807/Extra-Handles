@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_hoe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "b": {
+      "item": "minecraft:armadillo_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_hoe",
+    "components": {
+      "extra_handles:handle_type": "Armadillo"
+    },
+    "count": 1
+  }
+}

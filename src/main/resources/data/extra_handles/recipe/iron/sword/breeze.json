@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "iron_sword",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/iron"
+    },
+    "b": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "extra_handles:handle_type": "Breeze"
+    },
+    "count": 1
+  }
+}
