@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_tiny",
+    "layer1": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": { "extra_handles:handle_type": 0 },
+      "model": "extra_handles:item/iron/sword/wooden"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 1 },
+      "model": "extra_handles:item/iron/sword/armadillo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 2 },
+      "model": "extra_handles:item/iron/sword/amethyst"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 3 },
+      "model": "extra_handles:item/iron/sword/bone"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 4 },
+      "model": "extra_handles:item/iron/sword/prismarine"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 5 },
+      "model": "extra_handles:item/iron/sword/breeze"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 6 },
+      "model": "extra_handles:item/iron/sword/scute"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 7 },
+      "model": "extra_handles:item/iron/sword/echo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 8 },
+      "model": "extra_handles:item/iron/sword/netherite"
+    }
+  ]
+}

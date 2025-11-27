@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_short",
+    "layer1": "minecraft:item/golden_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": { "extra_handles:handle_type": 0 },
+      "model": "extra_handles:item/golden/shovel/wooden"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 1 },
+      "model": "extra_handles:item/golden/shovel/armadillo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 2 },
+      "model": "extra_handles:item/golden/shovel/amethyst"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 3 },
+      "model": "extra_handles:item/golden/shovel/bone"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 4 },
+      "model": "extra_handles:item/golden/shovel/prismarine"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 5 },
+      "model": "extra_handles:item/golden/shovel/breeze"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 6 },
+      "model": "extra_handles:item/golden/shovel/scute"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 7 },
+      "model": "extra_handles:item/golden/shovel/echo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 8 },
+      "model": "extra_handles:item/golden/shovel/netherite"
+    }
+  ]
+}

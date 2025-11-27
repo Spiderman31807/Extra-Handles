@@ -1,0 +1,81 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "extra_handles:item/stick_handle_full",
+        "layer1": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": { "extra_handles:handle_type": 0 },
+            "model": "extra_handles:item/fishing_rod/wooden"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 0, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/wooden"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 1 },
+            "model": "extra_handles:item/fishing_rod/armadillo"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 1, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/armadillo"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 2 },
+            "model": "extra_handles:item/fishing_rod/amethyst"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 2, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/amethyst"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 3 },
+            "model": "extra_handles:item/fishing_rod/bone"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 3, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/bone"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 4 },
+            "model": "extra_handles:item/fishing_rod/prismarine"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 4, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/prismarine"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 5 },
+            "model": "extra_handles:item/fishing_rod/breeze"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 5, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/breeze"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 6 },
+            "model": "extra_handles:item/fishing_rod/scute"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 6, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/scute"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 7 },
+            "model": "extra_handles:item/fishing_rod/echo"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 7, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/echo"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 8 },
+            "model": "extra_handles:item/fishing_rod/netherite"
+        },
+        {
+            "predicate": { "extra_handles:handle_type": 8, "cast": 1 },
+            "model": "extra_handles:item/fishing_rod/cast/netherite"
+        }
+    ]
+}

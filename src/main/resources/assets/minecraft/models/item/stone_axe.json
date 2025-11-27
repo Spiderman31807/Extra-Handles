@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_medium",
+    "layer1": "minecraft:item/stone_axe"
+  },
+  "overrides": [
+    {
+      "predicate": { "extra_handles:handle_type": 0 },
+      "model": "extra_handles:item/stone/axe/wooden"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 1 },
+      "model": "extra_handles:item/stone/axe/armadillo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 2 },
+      "model": "extra_handles:item/stone/axe/amethyst"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 3 },
+      "model": "extra_handles:item/stone/axe/bone"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 4 },
+      "model": "extra_handles:item/stone/axe/prismarine"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 5 },
+      "model": "extra_handles:item/stone/axe/breeze"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 6 },
+      "model": "extra_handles:item/stone/axe/scute"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 7 },
+      "model": "extra_handles:item/stone/axe/echo"
+    },
+    {
+      "predicate": { "extra_handles:handle_type": 8 },
+      "model": "extra_handles:item/stone/axe/netherite"
+    }
+  ]
+}
