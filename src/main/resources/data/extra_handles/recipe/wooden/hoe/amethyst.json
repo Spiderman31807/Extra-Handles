@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_hoe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_hoe",
+    "components": {
+      "extra_handles:handle_type": "Amethyst"
+    },
+    "count": 1
+  }
+}

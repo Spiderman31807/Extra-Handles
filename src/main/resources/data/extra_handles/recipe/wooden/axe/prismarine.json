@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_axe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_axe",
+    "components": {
+      "extra_handles:handle_type": "Prismarine"
+    },
+    "count": 1
+  }
+}

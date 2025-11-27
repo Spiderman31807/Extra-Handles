@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pickaxe",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "extra_handles:handle_type": "Bone"
+    },
+    "count": 1
+  }
+}
