@@ -1,0 +1,6 @@
+{
+  "parent": "item/wooden_axe",
+  "textures": {
+    "layer0": "extra_handles:item/bone_handle_medium"
+  }
+}

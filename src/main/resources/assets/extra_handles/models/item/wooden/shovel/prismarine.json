@@ -1,0 +1,6 @@
+{
+  "parent": "item/wooden_shovel",
+  "textures": {
+    "layer0": "extra_handles:item/prismarine_handle_short"
+  }
+}
