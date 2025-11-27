@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:mace" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:mace/armadillo",
+      "extra_handles:mace/amethyst",
+      "extra_handles:mace/bone",
+      "extra_handles:mace/prismarine",
+      "extra_handles:mace/breeze",
+      "extra_handles:mace/scute",
+      "extra_handles:mace/echo",
+      "extra_handles:mace/netherite"
+    ]
+  }
+}

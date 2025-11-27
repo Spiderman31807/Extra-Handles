@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:diamond_sword" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:diamond/sword/armadillo",
+      "extra_handles:diamond/sword/amethyst",
+      "extra_handles:diamond/sword/bone",
+      "extra_handles:diamond/sword/prismarine",
+      "extra_handles:diamond/sword/breeze",
+      "extra_handles:diamond/sword/scute",
+      "extra_handles:diamond/sword/echo",
+      "extra_handles:diamond/sword/netherite"
+    ]
+  }
+}

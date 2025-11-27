@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:stone_shovel" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:stone/shovel/armadillo",
+      "extra_handles:stone/shovel/amethyst",
+      "extra_handles:stone/shovel/bone",
+      "extra_handles:stone/shovel/prismarine",
+      "extra_handles:stone/shovel/breeze",
+      "extra_handles:stone/shovel/scute",
+      "extra_handles:stone/shovel/echo",
+      "extra_handles:stone/shovel/netherite"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:diamond_pickaxe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:diamond/pickaxe/armadillo",
+      "extra_handles:diamond/pickaxe/amethyst",
+      "extra_handles:diamond/pickaxe/bone",
+      "extra_handles:diamond/pickaxe/prismarine",
+      "extra_handles:diamond/pickaxe/breeze",
+      "extra_handles:diamond/pickaxe/scute",
+      "extra_handles:diamond/pickaxe/echo",
+      "extra_handles:diamond/pickaxe/netherite"
+    ]
+  }
+}

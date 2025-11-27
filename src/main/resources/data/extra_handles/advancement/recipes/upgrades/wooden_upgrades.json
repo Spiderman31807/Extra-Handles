@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade": {
+      "conditions": {
+        "items": [ { "items": "extra_handles:wooden_upgrade_template" } ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [ "has_upgrade" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:upgrades/bow/wooden",
+      "extra_handles:upgrades/brush/wooden",
+      "extra_handles:upgrades/mace/wooden",
+      "extra_handles:upgrades/fishing_rod/wooden",
+      "extra_handles:upgrades/wooden/sword/wooden",
+      "extra_handles:upgrades/wooden/pickaxe/wooden",
+      "extra_handles:upgrades/wooden/axe/wooden",
+      "extra_handles:upgrades/wooden/shovel/wooden",
+      "extra_handles:upgrades/wooden/hoe/wooden",
+      "extra_handles:upgrades/stone/sword/wooden",
+      "extra_handles:upgrades/stone/pickaxe/wooden",
+      "extra_handles:upgrades/stone/axe/wooden",
+      "extra_handles:upgrades/stone/shovel/wooden",
+      "extra_handles:upgrades/stone/hoe/wooden",
+      "extra_handles:upgrades/iron/sword/wooden",
+      "extra_handles:upgrades/iron/pickaxe/wooden",
+      "extra_handles:upgrades/iron/axe/wooden",
+      "extra_handles:upgrades/iron/shovel/wooden",
+      "extra_handles:upgrades/iron/hoe/wooden",
+      "extra_handles:upgrades/golden/sword/wooden",
+      "extra_handles:upgrades/golden/pickaxe/wooden",
+      "extra_handles:upgrades/golden/axe/wooden",
+      "extra_handles:upgrades/golden/shovel/wooden",
+      "extra_handles:upgrades/golden/hoe/wooden",
+      "extra_handles:upgrades/diamond/sword/wooden",
+      "extra_handles:upgrades/diamond/pickaxe/wooden",
+      "extra_handles:upgrades/diamond/axe/wooden",
+      "extra_handles:upgrades/diamond/shovel/wooden",
+      "extra_handles:upgrades/diamond/hoe/wooden",
+      "extra_handles:upgrades/netherite/sword/wooden",
+      "extra_handles:upgrades/netherite/pickaxe/wooden",
+      "extra_handles:upgrades/netherite/axe/wooden",
+      "extra_handles:upgrades/netherite/shovel/wooden",
+      "extra_handles:upgrades/netherite/hoe/wooden"
+    ]
+  }
+}

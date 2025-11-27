@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade": {
+      "conditions": {
+        "items": [ { "items": "extra_handles:netherite_upgrade_template" } ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [ "has_upgrade" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:upgrades/bow/netherite",
+      "extra_handles:upgrades/brush/netherite",
+      "extra_handles:upgrades/mace/netherite",
+      "extra_handles:upgrades/fishing_rod/netherite",
+      "extra_handles:upgrades/wooden/sword/netherite",
+      "extra_handles:upgrades/wooden/pickaxe/netherite",
+      "extra_handles:upgrades/wooden/axe/netherite",
+      "extra_handles:upgrades/wooden/shovel/netherite",
+      "extra_handles:upgrades/wooden/hoe/netherite",
+      "extra_handles:upgrades/stone/sword/netherite",
+      "extra_handles:upgrades/stone/pickaxe/netherite",
+      "extra_handles:upgrades/stone/axe/netherite",
+      "extra_handles:upgrades/stone/shovel/netherite",
+      "extra_handles:upgrades/stone/hoe/netherite",
+      "extra_handles:upgrades/iron/sword/netherite",
+      "extra_handles:upgrades/iron/pickaxe/netherite",
+      "extra_handles:upgrades/iron/axe/netherite",
+      "extra_handles:upgrades/iron/shovel/netherite",
+      "extra_handles:upgrades/iron/hoe/netherite",
+      "extra_handles:upgrades/golden/sword/netherite",
+      "extra_handles:upgrades/golden/pickaxe/netherite",
+      "extra_handles:upgrades/golden/axe/netherite",
+      "extra_handles:upgrades/golden/shovel/netherite",
+      "extra_handles:upgrades/golden/hoe/netherite",
+      "extra_handles:upgrades/netherite/sword/netherite",
+      "extra_handles:upgrades/netherite/pickaxe/netherite",
+      "extra_handles:upgrades/netherite/axe/netherite",
+      "extra_handles:upgrades/netherite/shovel/netherite",
+      "extra_handles:upgrades/netherite/hoe/netherite"
+    ]
+  }
+}

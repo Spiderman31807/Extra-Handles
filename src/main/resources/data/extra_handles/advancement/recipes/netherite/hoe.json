@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:netherite_hoe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:netherite/hoe/armadillo",
+      "extra_handles:netherite/hoe/amethyst",
+      "extra_handles:netherite/hoe/bone",
+      "extra_handles:netherite/hoe/prismarine",
+      "extra_handles:netherite/hoe/breeze",
+      "extra_handles:netherite/hoe/scute",
+      "extra_handles:netherite/hoe/echo",
+      "extra_handles:netherite/hoe/netherite"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:wooden_pickaxe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:wooden/pickaxe/armadillo",
+      "extra_handles:wooden/pickaxe/amethyst",
+      "extra_handles:wooden/pickaxe/bone",
+      "extra_handles:wooden/pickaxe/prismarine",
+      "extra_handles:wooden/pickaxe/breeze",
+      "extra_handles:wooden/pickaxe/scute",
+      "extra_handles:wooden/pickaxe/echo",
+      "extra_handles:wooden/pickaxe/netherite"
+    ]
+  }
+}

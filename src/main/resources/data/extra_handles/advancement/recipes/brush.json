@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:brush" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:brush/armadillo",
+      "extra_handles:brush/amethyst",
+      "extra_handles:brush/bone",
+      "extra_handles:brush/prismarine",
+      "extra_handles:brush/breeze",
+      "extra_handles:brush/scute",
+      "extra_handles:brush/echo",
+      "extra_handles:brush/netherite"
+    ]
+  }
+}

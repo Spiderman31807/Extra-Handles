@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_resource": {
+      "conditions": { "items": [ { "items": "minecraft:bone" } ] },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [ [ "has_resource" ] ],
+  "rewards": {
+    "recipes": [ "extra_handles:upgrades/bone_template" ]
+  }
+}

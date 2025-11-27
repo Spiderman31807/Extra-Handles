@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade": {
+      "conditions": {
+        "items": [ { "items": "extra_handles:bone_upgrade_template" } ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [ "has_upgrade" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:upgrades/bow/bone",
+      "extra_handles:upgrades/brush/bone",
+      "extra_handles:upgrades/mace/bone",
+      "extra_handles:upgrades/fishing_rod/bone",
+      "extra_handles:upgrades/wooden/sword/bone",
+      "extra_handles:upgrades/wooden/pickaxe/bone",
+      "extra_handles:upgrades/wooden/axe/bone",
+      "extra_handles:upgrades/wooden/shovel/bone",
+      "extra_handles:upgrades/wooden/hoe/bone",
+      "extra_handles:upgrades/stone/sword/bone",
+      "extra_handles:upgrades/stone/pickaxe/bone",
+      "extra_handles:upgrades/stone/axe/bone",
+      "extra_handles:upgrades/stone/shovel/bone",
+      "extra_handles:upgrades/stone/hoe/bone",
+      "extra_handles:upgrades/iron/sword/bone",
+      "extra_handles:upgrades/iron/pickaxe/bone",
+      "extra_handles:upgrades/iron/axe/bone",
+      "extra_handles:upgrades/iron/shovel/bone",
+      "extra_handles:upgrades/iron/hoe/bone",
+      "extra_handles:upgrades/golden/sword/bone",
+      "extra_handles:upgrades/golden/pickaxe/bone",
+      "extra_handles:upgrades/golden/axe/bone",
+      "extra_handles:upgrades/golden/shovel/bone",
+      "extra_handles:upgrades/golden/hoe/bone",
+      "extra_handles:upgrades/diamond/sword/bone",
+      "extra_handles:upgrades/diamond/pickaxe/bone",
+      "extra_handles:upgrades/diamond/axe/bone",
+      "extra_handles:upgrades/diamond/shovel/bone",
+      "extra_handles:upgrades/diamond/hoe/bone",
+      "extra_handles:upgrades/netherite/sword/bone",
+      "extra_handles:upgrades/netherite/pickaxe/bone",
+      "extra_handles:upgrades/netherite/axe/bone",
+      "extra_handles:upgrades/netherite/shovel/bone",
+      "extra_handles:upgrades/netherite/hoe/bone"
+    ]
+  }
+}

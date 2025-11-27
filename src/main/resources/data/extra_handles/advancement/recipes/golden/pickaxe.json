@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:golden_pickaxe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:golden/pickaxe/armadillo",
+      "extra_handles:golden/pickaxe/amethyst",
+      "extra_handles:golden/pickaxe/bone",
+      "extra_handles:golden/pickaxe/prismarine",
+      "extra_handles:golden/pickaxe/breeze",
+      "extra_handles:golden/pickaxe/scute",
+      "extra_handles:golden/pickaxe/echo",
+      "extra_handles:golden/pickaxe/netherite"
+    ]
+  }
+}

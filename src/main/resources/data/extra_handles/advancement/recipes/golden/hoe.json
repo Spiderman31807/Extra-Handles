@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:golden_hoe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:golden/hoe/armadillo",
+      "extra_handles:golden/hoe/amethyst",
+      "extra_handles:golden/hoe/bone",
+      "extra_handles:golden/hoe/prismarine",
+      "extra_handles:golden/hoe/breeze",
+      "extra_handles:golden/hoe/scute",
+      "extra_handles:golden/hoe/echo",
+      "extra_handles:golden/hoe/netherite"
+    ]
+  }
+}

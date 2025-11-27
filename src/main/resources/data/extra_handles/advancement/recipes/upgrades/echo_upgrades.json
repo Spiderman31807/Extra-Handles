@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade": {
+      "conditions": {
+        "items": [ { "items": "extra_handles:echo_upgrade_template" } ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [ "has_upgrade" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:upgrades/bow/echo",
+      "extra_handles:upgrades/brush/echo",
+      "extra_handles:upgrades/mace/echo",
+      "extra_handles:upgrades/fishing_rod/echo",
+      "extra_handles:upgrades/wooden/sword/echo",
+      "extra_handles:upgrades/wooden/pickaxe/echo",
+      "extra_handles:upgrades/wooden/axe/echo",
+      "extra_handles:upgrades/wooden/shovel/echo",
+      "extra_handles:upgrades/wooden/hoe/echo",
+      "extra_handles:upgrades/stone/sword/echo",
+      "extra_handles:upgrades/stone/pickaxe/echo",
+      "extra_handles:upgrades/stone/axe/echo",
+      "extra_handles:upgrades/stone/shovel/echo",
+      "extra_handles:upgrades/stone/hoe/echo",
+      "extra_handles:upgrades/iron/sword/echo",
+      "extra_handles:upgrades/iron/pickaxe/echo",
+      "extra_handles:upgrades/iron/axe/echo",
+      "extra_handles:upgrades/iron/shovel/echo",
+      "extra_handles:upgrades/iron/hoe/echo",
+      "extra_handles:upgrades/golden/sword/echo",
+      "extra_handles:upgrades/golden/pickaxe/echo",
+      "extra_handles:upgrades/golden/axe/echo",
+      "extra_handles:upgrades/golden/shovel/echo",
+      "extra_handles:upgrades/golden/hoe/echo",
+      "extra_handles:upgrades/diamond/sword/echo",
+      "extra_handles:upgrades/diamond/pickaxe/echo",
+      "extra_handles:upgrades/diamond/axe/echo",
+      "extra_handles:upgrades/diamond/shovel/echo",
+      "extra_handles:upgrades/diamond/hoe/echo",
+      "extra_handles:upgrades/netherite/sword/echo",
+      "extra_handles:upgrades/netherite/pickaxe/echo",
+      "extra_handles:upgrades/netherite/axe/echo",
+      "extra_handles:upgrades/netherite/shovel/echo",
+      "extra_handles:upgrades/netherite/hoe/echo"
+    ]
+  }
+}

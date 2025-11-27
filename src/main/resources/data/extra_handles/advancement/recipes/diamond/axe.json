@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:diamond_axe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:diamond/axe/armadillo",
+      "extra_handles:diamond/axe/amethyst",
+      "extra_handles:diamond/axe/bone",
+      "extra_handles:diamond/axe/prismarine",
+      "extra_handles:diamond/axe/breeze",
+      "extra_handles:diamond/axe/scute",
+      "extra_handles:diamond/axe/echo",
+      "extra_handles:diamond/axe/netherite"
+    ]
+  }
+}

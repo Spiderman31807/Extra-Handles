@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": { "recipe": "minecraft:netherite_pickaxe" },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:netherite/pickaxe/armadillo",
+      "extra_handles:netherite/pickaxe/amethyst",
+      "extra_handles:netherite/pickaxe/bone",
+      "extra_handles:netherite/pickaxe/prismarine",
+      "extra_handles:netherite/pickaxe/breeze",
+      "extra_handles:netherite/pickaxe/scute",
+      "extra_handles:netherite/pickaxe/echo",
+      "extra_handles:netherite/pickaxe/netherite"
+    ]
+  }
+}

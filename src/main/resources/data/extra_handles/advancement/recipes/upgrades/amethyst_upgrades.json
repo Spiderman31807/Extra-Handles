@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade": {
+      "conditions": {
+        "items": [ { "items": "extra_handles:amethyst_upgrade_template" } ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [ "has_upgrade" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extra_handles:upgrades/bow/amethyst",
+      "extra_handles:upgrades/brush/amethyst",
+      "extra_handles:upgrades/mace/amethyst",
+      "extra_handles:upgrades/fishing_rod/amethyst",
+      "extra_handles:upgrades/wooden/sword/amethyst",
+      "extra_handles:upgrades/wooden/pickaxe/amethyst",
+      "extra_handles:upgrades/wooden/axe/amethyst",
+      "extra_handles:upgrades/wooden/shovel/amethyst",
+      "extra_handles:upgrades/wooden/hoe/amethyst",
+      "extra_handles:upgrades/stone/sword/amethyst",
+      "extra_handles:upgrades/stone/pickaxe/amethyst",
+      "extra_handles:upgrades/stone/axe/amethyst",
+      "extra_handles:upgrades/stone/shovel/amethyst",
+      "extra_handles:upgrades/stone/hoe/amethyst",
+      "extra_handles:upgrades/iron/sword/amethyst",
+      "extra_handles:upgrades/iron/pickaxe/amethyst",
+      "extra_handles:upgrades/iron/axe/amethyst",
+      "extra_handles:upgrades/iron/shovel/amethyst",
+      "extra_handles:upgrades/iron/hoe/amethyst",
+      "extra_handles:upgrades/golden/sword/amethyst",
+      "extra_handles:upgrades/golden/pickaxe/amethyst",
+      "extra_handles:upgrades/golden/axe/amethyst",
+      "extra_handles:upgrades/golden/shovel/amethyst",
+      "extra_handles:upgrades/golden/hoe/amethyst",
+      "extra_handles:upgrades/diamond/sword/amethyst",
+      "extra_handles:upgrades/diamond/pickaxe/amethyst",
+      "extra_handles:upgrades/diamond/axe/amethyst",
+      "extra_handles:upgrades/diamond/shovel/amethyst",
+      "extra_handles:upgrades/diamond/hoe/amethyst",
+      "extra_handles:upgrades/netherite/sword/amethyst",
+      "extra_handles:upgrades/netherite/pickaxe/amethyst",
+      "extra_handles:upgrades/netherite/axe/amethyst",
+      "extra_handles:upgrades/netherite/shovel/amethyst",
+      "extra_handles:upgrades/netherite/hoe/amethyst"
+    ]
+  }
+}
