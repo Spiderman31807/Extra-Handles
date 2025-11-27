@@ -1,0 +1,6 @@
+{
+  "parent": "item/golden_hoe",
+  "textures": {
+    "layer0": "extra_handles:item/armadillo_handle_long"
+  }
+}
