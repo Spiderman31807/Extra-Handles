@@ -1,0 +1,163 @@
+{
+  "mod_elements": [
+    {
+      "name": "CustomComponents",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_components",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/CustomComponents.java"
+        ]
+      }
+    },
+    {
+      "name": "HandleType",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "handle_type",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/HandleType.java"
+        ]
+      }
+    },
+    {
+      "name": "Events",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "events",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/Events.java"
+        ]
+      }
+    },
+    {
+      "name": "ClientEvents",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "client_events",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/ClientEvents.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemStackMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_stack_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/ItemStackMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Upgrades",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upgrades",
+      "metadata": {
+        "files": [
+          "src/main/java/extrahandles/Upgrades.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "extra_handles.tooltip.handle": "Handle: %s",
+      "item.extra_handles.wooden_upgrade_template": "Smithing Template",
+      "item.extra_handles.armadillo_upgrade_template": "Smithing Template",
+      "item.extra_handles.amethyst_upgrade_template": "Smithing Template",
+      "item.extra_handles.bone_upgrade_template": "Smithing Template",
+      "item.extra_handles.prismarine_upgrade_template": "Smithing Template",
+      "item.extra_handles.breeze_upgrade_template": "Smithing Template",
+      "item.extra_handles.scute_upgrade_template": "Smithing Template",
+      "item.extra_handles.echo_upgrade_template": "Smithing Template",
+      "upgrade.extra_handles.smithing_template.wooden_upgrade": "Wooden Upgrade",
+      "upgrade.extra_handles.smithing_template.armadillo_upgrade": "Armadillo Upgrade",
+      "upgrade.extra_handles.smithing_template.amethyst_upgrade": "Amethyst Upgrade",
+      "upgrade.extra_handles.smithing_template.bone_upgrade": "Bone Upgrade",
+      "upgrade.extra_handles.smithing_template.prismarine_upgrade": "Prismarine Upgrade",
+      "upgrade.extra_handles.smithing_template.breeze_upgrade": "Breeze Upgrade",
+      "upgrade.extra_handles.smithing_template.scute_upgrade": "Scute Upgrade",
+      "upgrade.extra_handles.smithing_template.echo_upgrade": "Echo Upgrade",
+      "item.extra_handles.smithing_template.wooden_upgrade.ingredients": "Sticks",
+      "item.extra_handles.smithing_template.armadillo_upgrade.ingredients": "Armadillo Scutes",
+      "item.extra_handles.smithing_template.amethyst_upgrade.ingredients": "Amethyst Shards",
+      "item.extra_handles.smithing_template.bone_upgrade.ingredients": "Bones",
+      "item.extra_handles.smithing_template.prismarine_upgrade.ingredients": "Prismarine Shards",
+      "item.extra_handles.smithing_template.breeze_upgrade.ingredients": "Breeze Rods",
+      "item.extra_handles.smithing_template.echo_upgrade.ingredients": "Echo Shards",
+      "item.extra_handles.smithing_template.wooden_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.armadillo_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.amethyst_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.bone_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.prismarine_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.breeze_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.scute_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.echo_upgrade.applies_to": "Tools, Swords, Bows, Mace",
+      "item.extra_handles.smithing_template.scute_upgrade.ingredients": "Turtle Scutes",
+      "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Tools, Swords, Bows, Mace, Diamond Armor",
+      "item.extra_handles.smithing_template.wooden_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.bone_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.armadillo_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.amethyst_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.prismarine_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.breeze_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.scute_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.echo_upgrade.base_slot_description": "Add tool, sword, bow or mace",
+      "item.extra_handles.smithing_template.wooden_upgrade.additions_slot_description": "Add Stick",
+      "item.extra_handles.smithing_template.armadillo_upgrade.additions_slot_description": "Add Armadillo Scute",
+      "item.extra_handles.smithing_template.amethyst_upgrade.additions_slot_description": "Add Amethyst Shard",
+      "item.extra_handles.smithing_template.bone_upgrade.additions_slot_description": "Add Bone",
+      "item.extra_handles.smithing_template.prismarine_upgrade.additions_slot_description": "Add Prismarine Shard",
+      "item.extra_handles.smithing_template.breeze_upgrade.additions_slot_description": "Add Breeze Rod",
+      "item.extra_handles.smithing_template.scute_upgrade.additions_slot_description": "Add Turtle Scute",
+      "item.extra_handles.smithing_template.echo_upgrade.additions_slot_description": "Add Echo Shard"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/extrahandles/ExtraHandlesMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extra_handles",
+    "modName": "Extra Handles",
+    "version": "1.0.0",
+    "author": "Spiderman31807",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "extrahandles"
+  },
+  "mcreatorVersion": 202500226612
+}
