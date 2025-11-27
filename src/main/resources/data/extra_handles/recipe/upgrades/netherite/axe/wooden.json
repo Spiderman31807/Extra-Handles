@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:rods/wooden"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_axe",
+    "components": {
+        "extra_handles:handle_type": "Netherite"
+    }
+  },
+  "template": {
+    "item": "extra_handles:wooden_upgrade_template"
+  }
+}

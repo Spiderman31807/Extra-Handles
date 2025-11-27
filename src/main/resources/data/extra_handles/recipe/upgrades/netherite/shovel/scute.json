@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:turtle_scute"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_shovel",
+    "components": {
+        "extra_handles:handle_type": "Scute"
+    }
+  },
+  "template": {
+    "item": "extra_handles:scute_upgrade_template"
+  }
+}

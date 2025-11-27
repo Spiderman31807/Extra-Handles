@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:breeze_rod"
+  },
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_hoe",
+    "components": {
+        "extra_handles:handle_type": "Breeze"
+    }
+  },
+  "template": {
+    "item": "extra_handles:breeze_upgrade_template"
+  }
+}
