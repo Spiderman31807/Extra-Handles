@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow_pulling_2",
+    "textures": {
+        "layer0": "extra_handles:item/scute_curved_pulling_2"
+    }
+}
