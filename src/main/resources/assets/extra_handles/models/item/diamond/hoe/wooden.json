@@ -1,0 +1,6 @@
+{
+  "parent": "item/diamond_hoe",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_long"
+  }
+}
