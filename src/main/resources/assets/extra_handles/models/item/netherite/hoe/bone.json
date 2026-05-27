@@ -1,0 +1,6 @@
+{
+  "parent": "item/netherite_hoe",
+  "textures": {
+    "layer0": "extra_handles:item/bone_handle_long"
+  }
+}

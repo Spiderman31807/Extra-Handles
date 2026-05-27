@@ -1,0 +1,6 @@
+{
+  "parent": "item/netherite_sword",
+  "textures": {
+    "layer0": "extra_handles:item/scute_handle_tiny"
+  }
+}

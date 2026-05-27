@@ -1,0 +1,6 @@
+{
+  "parent": "item/mace",
+  "textures": {
+    "layer0": "extra_handles:item/prismarine_handle_small"
+  }
+}

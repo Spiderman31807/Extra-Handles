@@ -1,0 +1,6 @@
+{
+  "parent": "item/iron_pickaxe",
+  "textures": {
+    "layer0": "extra_handles:item/breeze_handle_long"
+  }
+}
