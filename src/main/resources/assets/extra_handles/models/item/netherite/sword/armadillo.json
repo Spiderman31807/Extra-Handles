@@ -1,6 +1,0 @@
-{
-  "parent": "item/netherite_sword",
-  "textures": {
-    "layer0": "extra_handles:item/armadillo_handle_tiny"
-  }
-}

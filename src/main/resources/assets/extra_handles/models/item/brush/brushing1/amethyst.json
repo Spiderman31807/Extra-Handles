@@ -1,6 +1,0 @@
-{
-    "parent": "item/brush_brushing_1",
-    "textures": {
-        "layer0": "extra_handles:item/amethyst_handle_stub"
-    }
-}

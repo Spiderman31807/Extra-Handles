@@ -1,6 +1,0 @@
-{
-  "parent": "item/wooden_axe",
-  "textures": {
-    "layer0": "extra_handles:item/prismarine_handle_medium"
-  }
-}

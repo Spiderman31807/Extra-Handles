@@ -1,6 +1,0 @@
-{
-  "parent": "item/golden_hoe",
-  "textures": {
-    "layer0": "extra_handles:item/netherite_handle_long"
-  }
-}

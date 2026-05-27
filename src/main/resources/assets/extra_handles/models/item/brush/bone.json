@@ -1,6 +1,0 @@
-{
-    "parent": "item/brush",
-    "textures": {
-        "layer0": "extra_handles:item/bone_handle_stub"
-    }
-}

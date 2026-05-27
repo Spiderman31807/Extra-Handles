@@ -1,6 +1,0 @@
-{
-  "parent": "item/golden_sword",
-  "textures": {
-    "layer0": "extra_handles:item/bone_handle_tiny"
-  }
-}

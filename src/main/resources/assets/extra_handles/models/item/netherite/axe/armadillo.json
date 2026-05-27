@@ -1,6 +1,0 @@
-{
-  "parent": "item/netherite_axe",
-  "textures": {
-    "layer0": "extra_handles:item/armadillo_handle_medium"
-  }
-}

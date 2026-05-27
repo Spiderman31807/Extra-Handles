@@ -1,6 +1,0 @@
-{
-  "parent": "item/netherite_hoe",
-  "textures": {
-    "layer0": "extra_handles:item/scute_handle_long"
-  }
-}

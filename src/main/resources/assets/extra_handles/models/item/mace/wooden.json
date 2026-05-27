@@ -1,6 +1,0 @@
-{
-  "parent": "item/mace",
-  "textures": {
-    "layer0": "extra_handles:item/stick_handle_small"
-  }
-}

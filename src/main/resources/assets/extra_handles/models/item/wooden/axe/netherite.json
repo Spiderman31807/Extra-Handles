@@ -1,6 +1,0 @@
-{
-  "parent": "item/wooden_axe",
-  "textures": {
-    "layer0": "extra_handles:item/netherite_handle_medium"
-  }
-}
