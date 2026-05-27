@@ -20,7 +20,7 @@ public abstract class ItemStackMixin implements DataComponentHolder {
 	public <T> T get(DataComponentType<? extends T> component) {
 		if (component == DataComponents.MAX_DAMAGE && self().has(CustomComponents.Handle)) {
 			int maxDamage = DataComponentHolder.super.get(DataComponents.MAX_DAMAGE);
-			maxDamage = self().get(CustomComponents.Handle).getMaxDamage(maxDamage, self().getItem());
+			maxDamage = self().get(CustomComponents.Handle).getMaxDamage(maxDamage, self());
 			return (T) Integer.valueOf(maxDamage);
 		}
 
@@ -32,7 +32,7 @@ public abstract class ItemStackMixin implements DataComponentHolder {
 	public <T> T getOrDefault(DataComponentType<? extends T> component, T fallback) {
 		if (component == DataComponents.MAX_DAMAGE && self().has(CustomComponents.Handle)) {
 			int maxDamage = DataComponentHolder.super.get(DataComponents.MAX_DAMAGE);
-			maxDamage = self().get(CustomComponents.Handle).getMaxDamage(maxDamage, self().getItem());
+			maxDamage = self().get(CustomComponents.Handle).getMaxDamage(maxDamage, self());
 			return (T) Integer.valueOf(maxDamage);
 		}
 

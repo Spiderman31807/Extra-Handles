@@ -11,12 +11,13 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.resources.ResourceKey;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class Events {
 	@SubscribeEvent
 	public static void register(BuildCreativeModeTabContentsEvent event) {
 		ResourceKey<CreativeModeTab> tab = event.getTabKey();
 		if (tab == CreativeModeTabs.COMBAT) {
+			insertVariants(Items.TRIDENT, event, true);
 			insertVariants(Items.MACE, event, true);
 			insertVariants(Items.BOW, event, true);
 			insertVariants(event, false, Items.NETHERITE_AXE, Items.DIAMOND_AXE, Items.GOLDEN_AXE, Items.IRON_AXE, Items.STONE_AXE, Items.WOODEN_AXE);

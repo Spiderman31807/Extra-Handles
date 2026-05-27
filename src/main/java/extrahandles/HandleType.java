@@ -1,22 +1,23 @@
 package extrahandles;
 
-import net.minecraft.world.item.Tiers;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.monster.breeze.Breeze;
 import net.minecraft.world.entity.animal.armadillo.Armadillo;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.util.ByIdMap;
+import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.core.component.DataComponents;
 
 import java.util.function.IntFunction;
 
 import io.netty.buffer.ByteBuf;
+import net.minecraft.world.item.ItemStack;
 
 public enum HandleType implements StringRepresentable {
-	Wooden(29), Armadillo(355), Amethyst(200), Bone(225), Prismarine(410), Breeze(250), Scute(590), Echo(845), Netherite(1015);
+	Wooden(30), Armadillo(65), Bone(90), Prismarine(125), Scute(225), Breeze(250), Amethyst(335), Echo(510), Netherite(635);
 
 	public static final IntFunction<HandleType> BY_ID = ByIdMap.continuous(HandleType::getId, values(), ByIdMap.OutOfBoundsStrategy.ZERO);
 	public static final StringRepresentable.EnumCodec<HandleType> CODEC = StringRepresentable.fromEnum(HandleType::values);
@@ -39,13 +40,13 @@ public enum HandleType implements StringRepresentable {
 
 	@Override
 	public String getSerializedName() {
-		return this.toString();
+		return this.toString().toLowerCase();
 	}
 
-	public int getMaxDamage(int original, Item item) {
-		int reduction = item == Items.MACE ? 250 : 29;
-		if(item instanceof TieredItem tierItem && tierItem.getTier() == Tiers.NETHERITE)
-			reduction = 1015;
+	public int getMaxDamage(int original, ItemStack stack) {
+		int reduction = stack.getItem() == Items.MACE ? 250 : (stack.getItem() == Items.TRIDENT ? 125 : 30);
+		if (stack.hasNonDefault(DataComponents.DAMAGE_RESISTANT) && stack.get(DataComponents.DAMAGE_RESISTANT).types().equals(DamageTypeTags.IS_FIRE))
+			reduction = 635;
 		return (original - reduction) + durability;
 	}
 }
