@@ -1,0 +1,6 @@
+{
+  "parent": "item/golden_pickaxe",
+  "textures": {
+    "layer0": "extra_handles:item/scute_handle_long"
+  }
+}

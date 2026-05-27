@@ -1,0 +1,6 @@
+{
+  "parent": "item/stone_shovel",
+  "textures": {
+    "layer0": "extra_handles:item/echo_handle_short"
+  }
+}
