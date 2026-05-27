@@ -1,0 +1,6 @@
+{
+    "parent": "item/trident",
+    "textures": {
+        "layer0": "extra_handles:item/echo_handle_blunt"
+    }
+}

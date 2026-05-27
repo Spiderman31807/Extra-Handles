@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "extra_handles:item/amethyst_upgrade_template"
+  }
+}
