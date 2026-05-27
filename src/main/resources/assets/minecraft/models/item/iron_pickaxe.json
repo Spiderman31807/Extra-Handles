@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_long",
+    "layer1": "minecraft:item/iron_pickaxe"
+  }
+}

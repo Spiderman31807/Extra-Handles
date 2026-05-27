@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/amethyst"
+        },
+        "when": "amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/armadillo"
+        },
+        "when": "armadillo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/bone"
+        },
+        "when": "bone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/breeze"
+        },
+        "when": "breeze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/echo"
+        },
+        "when": "echo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/netherite"
+        },
+        "when": "netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/prismarine"
+        },
+        "when": "prismarine"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/scute"
+        },
+        "when": "scute"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/stone/hoe/wooden"
+        },
+        "when": "wooden"
+      }
+    ],
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stone_hoe"
+    },
+    "property": "extra_handles:type"
+  }
+}

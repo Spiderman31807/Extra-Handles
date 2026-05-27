@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/amethyst"
+        },
+        "when": "amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/armadillo"
+        },
+        "when": "armadillo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/bone"
+        },
+        "when": "bone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/breeze"
+        },
+        "when": "breeze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/echo"
+        },
+        "when": "echo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/netherite"
+        },
+        "when": "netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/prismarine"
+        },
+        "when": "prismarine"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/scute"
+        },
+        "when": "scute"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_handles:item/golden/pickaxe/wooden"
+        },
+        "when": "wooden"
+      }
+    ],
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_pickaxe"
+    },
+    "property": "extra_handles:type"
+  }
+}

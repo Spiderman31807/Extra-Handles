@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/prismarine_handle_blunt",
+    "layer1": "minecraft:item/trident"
+  }
+}

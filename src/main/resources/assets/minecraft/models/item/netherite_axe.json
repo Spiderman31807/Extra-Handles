@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_handles:item/stick_handle_medium",
+    "layer1": "minecraft:item/netherite_axe"
+  }
+}

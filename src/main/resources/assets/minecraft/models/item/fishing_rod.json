@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "extra_handles:item/stick_handle_full",
+        "layer1": "item/fishing_rod"
+    }
+}

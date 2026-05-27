@@ -1,0 +1,152 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/amethyst"
+          },
+          "when": "amethyst"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/armadillo"
+          },
+          "when": "armadillo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/bone"
+          },
+          "when": "bone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/breeze"
+          },
+          "when": "breeze"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/echo"
+          },
+          "when": "echo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/netherite"
+          },
+          "when": "netherite"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/prismarine"
+          },
+          "when": "prismarine"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/scute"
+          },
+          "when": "scute"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/wooden"
+          },
+          "when": "wooden"
+        }
+      ],
+      "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fishing_rod"
+      },
+      "property": "extra_handles:type"
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/amethyst"
+          },
+          "when": "amethyst"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/armadillo"
+          },
+          "when": "armadillo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/bone"
+          },
+          "when": "bone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/breeze"
+          },
+          "when": "breeze"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/echo"
+          },
+          "when": "echo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/netherite"
+          },
+          "when": "netherite"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/prismarine"
+          },
+          "when": "prismarine"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/scute"
+          },
+          "when": "scute"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_handles:item/fishing_rod/cast/wooden"
+          },
+          "when": "wooden"
+        }
+      ],
+      "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fishing_rod_cast"
+      },
+      "property": "extra_handles:type"
+    },
+    "property": "minecraft:fishing_rod/cast"
+  }
+}
